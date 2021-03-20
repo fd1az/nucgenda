@@ -1,4 +1,4 @@
-#!/usr/local/bin/node node
+#!/usr/bin/env node
 import { Command } from 'commander/esm.mjs';
 import inquirer from 'inquirer';
 import figlet from 'figlet';
