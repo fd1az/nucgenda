@@ -45,6 +45,7 @@ program
       },
     ]).then(({ selected }) => {
       const contact = contacts[selected];
+      console.log(contact);
       console.log(`
         info de contacto:
         Nombre: ${contact.firstName}
