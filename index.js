@@ -56,3 +56,7 @@ program
   });
 
 program.parse(process.argv);
+
+let obj = { name: 'alalal' };
+
+obj['name'] = 'lololo';
